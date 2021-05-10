@@ -1,0 +1,183 @@
+* { padding: 0; margin: 0; outline: none; }
+ 
+ 
+/*---------------------------------------------*/
+
+
+article { margin: 0 auto; max-width: 800px; }
+
+
+/* Element 1*/
+
+.elem1 { padding: 14px 20px; margin: 10px 0; background: #e8e8e8; color: #993333; font: 12px/20px "Arial Regular", sans-serif; }
+.elem1 p { margin: 10px 0; }
+.elem1 h2 { font: 18px/20px "Georgia", sans-serif; color: #3366cc; text-decoration: underline; font-weight: bold; }
+.elem1 h2 span { display: block; }
+.elem1 a { color: #993333; }
+.elem1 .leftimg { float: left; margin: 5px 12px 0 0; }
+.elem1:after { content:""; display: block; clear: both; }
+
+@media ( max-width: 720px ){
+  .elem1 { text-align: justify; }
+}
+
+/* Element 2*/
+
+.elem2 { padding: 14px 20px; margin: 10px 0; background: #e8e8e8; color: #993333; font: 12px/20px "Arial Regular", sans-serif; }
+.elem2 p { margin: 10px 0; }
+.elem2 h2 { font: 18px/20px "Georgia", sans-serif; color: #3366cc; text-decoration: underline; font-weight: bold; }
+.elem2 a { color: #993333; }
+.elem2 .leftimg img { float: left; margin-right: 12px; }
+.elem2:after { content:""; display: block; clear: both; }
+
+@media ( max-width: 720px ){
+  .elem2 { text-align: justify; }
+}
+
+/* Element 3*/
+
+.elem3 {  padding: 14px 20px; margin: 10px 0; background: #e8e8e8; color: #993333; font: 12px/20px "Arial Regular", sans-serif; }
+.elem3 p { display: table; padding: 10px 0; }
+.elem3 p span { display: block; font-style: italic; padding: 0 0 10px; font-size: 11px; line-height: 12px; }
+.elem3 h2 { font: 18px/20px "Georgia", sans-serif; color: #3366cc; text-decoration: underline; font-weight: bold; }
+.elem3 a { color: #993333; }
+.elem3 .leftimg img { float: left; margin-right: 12px; }
+.elem3 .content { margin-bottom: 20px; }
+.elem3:after { content:""; display: block; clear: both; }
+
+@media ( max-width: 720px ){
+  .elem3, 
+  .elem3 p span { text-align: center; }
+  .elem3 p { display: block; text-align: justify; }  
+  .elem3 .leftimg img { float: none; }
+}
+ 
+/* Element 4*/
+
+.elem4 { padding: 14px 20px; margin: 10px 0; background: #e8e8e8; color: #993333; font: 12px/20px "Arial Regular", sans-serif; }
+.elem4 p { display: table; margin: 10px 0; }
+.elem4 p span { display: block; font-style: italic; padding: 0 0 10px; font-size: 11px; line-height: 12px; }
+.elem4 h2 { font: 18px/20px "Georgia", sans-serif; color: #3366cc; text-decoration: underline; font-weight: bold; }
+.elem4 a { color: #993333; }
+.elem4 .leftimg img{ float: left; margin-right: 12px; }
+.elem4 .rightimg{ float: right; margin: 0 0 10px 12px; }
+.elem4:after { content:""; display: block; clear: both; }
+
+@media ( max-width: 720px ){
+  .elem4, 
+  .elem4 p span { text-align: center; }
+  .elem4 p { text-align: justify; }  
+  .elem4 .leftimg img, .elem4 .rightimg { float: none; display: block; margin: 0 auto; }
+}
+
+/* Element 5*/
+
+.elem5 { display: table; padding: 14px 20px; margin: 10px 0; background: #e8e8e8; color: #993333; font: 12px/20px "Arial Regular", sans-serif; }
+.elem5 p { margin: 10px 0; }
+.elem5 p span { display: block; font-style: italic; padding: 0 0 10px; font-size: 11px; line-height: 12px; }
+.elem5 h2 { font: 18px/20px "Georgia", sans-serif; color: #3366cc; text-decoration: underline; font-weight: bold; }
+.elem5 a { color: #993333; }
+.elem5 .leftimg img{ float: left; margin-right: 12px; }
+.elem5 .boxleft, 
+.elem5 .boxright { display: table-cell; }
+.elem5 .boxright { vertical-align: top }
+.elem5 .boxleft img { margin: 0 15px 10px 0; }
+.elem5:after { content:""; display: block; clear: both; }
+
+@media ( max-width: 720px ){
+  .elem5 { text-align: justify; }
+  .elem5 .boxleft { display: table-row; text-align: center; }
+  .elem5 .boxleft img { margin: 0 5px; }
+  .elem5 h2, .elem5 p span { text-align: center; }
+
+}
+
+/* Element 6*/
+
+.elem6 { display: table; padding: 14px 20px; margin: 10px 0; background: #e8e8e8; color: #993333; font: 12px/20px "Arial Regular", sans-serif; }
+.elem6 p { margin: 10px 0; }
+.elem6 p span { display: block; font-style: italic; padding: 0 0 10px; font-size: 11px; line-height: 12px; }
+.elem6 h2 { font: 18px/20px "Georgia", sans-serif; color: #3366cc; text-decoration: underline; font-weight: bold; }
+.elem6 a { color: #993333; }
+.elem6 .leftimg img{ float: left; margin-right: 12px; }
+.elem6 .rightimg { float: right; margin: 0 0 10px 12px; }
+.elem6 .boxleft, 
+.elem6 .boxright { display: table-cell; }
+.elem6 .boxright { vertical-align: top }
+.elem6 .boxleft img { margin: 0 15px 10px 0; }
+.elem6:after { content:""; display: block; clear: both; }
+.elem6 .images { float: left; text-align: center; }
+.elem6 .images img { padding-right: 20px; }
+
+@media ( max-width: 720px ){
+  .elem6 { text-align: justify; }
+  .elem6 .boxleft{ display: table-row; text-align: center; }
+  .elem6 .boxleft img { margin: 0 5px; }
+  .elem6 h2, .elem6 p span { text-align: center; }
+  .elem6 .rightimg { float: none; display: block; margin: 0 auto; }
+  .elem6 .images { width: 100%; text-align: center; }
+  .elem6 .images img { padding: 0 10px; }
+}
+
+/* Element 7*/
+
+.elem7 { display: table; padding: 14px 20px; margin: 10px 0; background: #e8e8e8; color: #993333; font: 12px/20px "Arial Regular", sans-serif; }
+.elem7 p { margin: 10px 0; }
+.elem7 p span { display: block; font-style: italic; padding: 0 0 10px; font-size: 11px; line-height: 12px; }
+.elem7 h2 { font: 18px/20px "Georgia", sans-serif; color: #3366cc; text-decoration: underline; font-weight: bold; }
+.elem7 a { color: #993333; }
+.elem7 .leftimg img{ float: left; margin-right: 12px; }
+.elem7 .rightimg { float: right; margin: 0 0 10px 12px; }
+.elem7 .boxleft, 
+.elem7 .boxright { display: table-cell; }
+.elem7 .boxright { vertical-align: top }
+.elem7 .boxleft img { margin: 0 15px 10px 0; }
+.elem7 .bigimage { display: table; color: black; }
+.elem7 .bigimage p { display: table-cell; vertical-align: top; }
+.elem7 .bigimage .leftimg { float: left; margin-right: 15px; }
+.elem7 .bigimage .big-img-wrap { text-align: center; font-style: italic; }
+.elem7:after { content:""; display: block; clear: both; }
+
+@media ( max-width: 720px ){
+  .elem7 { text-align: justify; }
+  .elem7 .boxleft{ display: table-row; text-align: center; }
+  .elem7 .boxleft img { margin: 0 5px; }
+  .elem7 h2, .elem7 p span { text-align: center; }
+  .elem7 .rightimg { float: none; display: block; margin: 0 auto; }
+  .elem7 .bigimage p,
+  .elem7 .bigimage .big-img-wrap span { display: block; }
+  .elem7 .bigimage .leftimg { float: none; margin: 0 auto; }
+}
+
+/* Element 8*/
+
+.elem8 { display: table; padding: 14px 20px; margin: 10px 0; background: #e8e8e8; color: #993333; font: 12px/20px "Arial Regular", sans-serif; }
+.elem8 p { margin: 10px 0; }
+.elem8 p span { display: block; font-style: italic; padding: 0 0 10px; font-size: 11px; line-height: 12px; }
+.elem8 h2 { font: 18px/20px "Georgia", sans-serif; color: #3366cc; text-decoration: underline; font-weight: bold; }
+.elem8 a { color: #993333; }
+.elem8 .leftimg img { float: left; margin-right: 12px; }
+.elem8 .rightimg { float: right; margin: 0 0 10px 12px; }
+.elem8 .boxleft, 
+.elem8 .boxright { display: table-cell; }
+.elem8 .boxright { vertical-align: top }
+.elem8 .boxleft img { margin: 0 15px 10px 0; }
+.elem8 .bigimage { display: table; color: black; margin: 0 auto; }
+.elem8 .bigimage .smallbox { display: table-cell; vertical-align: top; }
+.elem8 .bigimage .leftimg { float: left; margin-right: 10px; }
+.elem8 .bigimage .big-img-wrap { text-align: center; font-style: italic; }
+.elem8 .imagerow { display: inline-block; text-align: center; }
+.elem8 .imagerow a { display: table-caption; color: black; }
+.elem8:after { content:""; display: block; clear: both; }
+
+@media ( max-width: 720px ){
+  .elem8 { text-align: justify; }
+  .elem8 .boxleft{ display: table-row; text-align: center; }
+  .elem8 .boxleft img { margin: 0 5px; }
+  .elem8 h2, .elem8 p span { text-align: center; }
+  .elem8 .rightimg { float: none; display: block; margin: 0 auto; }
+  .elem8 .bigimage p,
+  .elem8 .bigimage .big-img-wrap span { display: block; }
+  .elem8 .bigimage .leftimg { float: none; margin: 0 auto; }
+  .elem8 .bigimage .smallbox { display: table; text-align: center; }
+}

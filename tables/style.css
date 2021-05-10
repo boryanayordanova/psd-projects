@@ -1,0 +1,115 @@
+* { margin: 0; padding: 0; outline: none; }
+
+ /* TABLE 1 */
+
+.tbl1 { margin: 30px auto; width: 100%; min-width: 700px; max-width: 700px; font: 12px/30px "Trebuchet MS", sans-serif; text-align: center; border-collapse: collapse;}
+.tbl1 th, .tbl1 td { border: 1px solid #999; }
+.tbl1 th { font-weight: bold; background: #d0d0d0; line-height: 35px; }
+.tbl1 a { color: #000; }
+.tbl1 tr:nth-child(2n) { background: #e7e7e7; }
+.tbl1 td:nth-child(1),
+.tbl1 td:nth-child(3),
+.tbl1 td:nth-child(4),
+.tbl1 td:nth-child(5) { width: 16%; }
+
+
+/* TABLE 2 */
+
+.tbl2 { margin: 30px auto; width: 100%; min-width: 500px; max-width: 500px; font: 12px/30px "Trebuchet MS", sans-serif; text-align: center; border-collapse: collapse; background: #e7e7e7; }
+.tbl2 th, .tbl2 td { border: 1px solid #fff; }
+.tbl2 th { font-weight: bold; background: #d0d0d0; line-height: 35px; }
+.tbl2 td>span { display: block; font-weight: bold; padding: 5px 0; }
+.tbl2 a { color: #000; }
+
+.tbl2 .icon { font-size: 0; line-height: 0; }
+.tbl2 .icon:before { content: ""; background: url("icons.png") no-repeat 0 0; width: 10px; height: 8px; display: block; margin: 0 auto;}
+.tbl2 .icon.menu:before { background-position: 0 0; }
+.tbl2 .icon.x:before { background-position: 0 -7px; }
+
+.tbl2 th:first-child { width: 11%; }
+
+.tbl2 th:nth-child(3),
+.tbl2 td:nth-child(4) { width: 20%; }
+
+.tbl2 td:nth-child(4),
+.tbl2 td:nth-child(5) { width: 10%; }
+
+.tbl2 td:nth-child(2) { padding: 0 10px; }
+
+.tbl2 td:nth-child(2),
+.tbl2 td:last-child { text-align: left; }
+
+.tbl2 td:last-child { padding: 10px 15px; }
+.tbl2 tr:last-child { line-height: 21px; }
+
+
+/* Table 3*/
+
+.tbl3 { margin: 30px auto; width: 100%; min-width: 700px; max-width: 700px; font: 12px/30px "Trebuchet MS", sans-serif; text-align: left; border-collapse: collapse; background: #e7e7e7; }
+.tbl3 th, .tbl3 td { border: 1px solid #999; }
+.tbl3 th { font-weight: bold; background: #d0d0d0; line-height: 35px; padding: 0 10px; }
+
+.tbl3 tr:nth-child(2) > td:nth-child(2) tr:first-child { border-top: 2px solid transparent }
+.tbl3 tr:nth-child(2) > td:nth-child(2) tr:last-child { border-bottom: 2px solid transparent }
+.tbl3 tr:nth-child(2) > td:nth-child(2) td:last-child { border-right: 2px solid transparent }
+.tbl3 tr:nth-child(2) > td:nth-child(2) td:first-child { border-left: 2px solid transparent }
+.tbl3 tr:nth-child(2) > td:nth-child(2) td:nth-last-child(-n+2):not(.cal_today) { background: #fff; } 
+
+.tbl3 > tbody > tr:nth-child(2) > td:first-child { width: 60%; background: #fff; vertical-align: top; padding: 10px; font-size: 12px; line-height: 21px; }
+.tbl3 > tbody > tr:nth-child(3) td { padding: 10px; background: #ccc; }
+.tbl3 > tbody > tr:nth-child(4) > td:first-child { width: 15%; text-align: center; } 
+.tbl3 > tbody > tr:nth-child(4) > td:last-child { padding: 10px; font-size: 12px; line-height: 21px; } 
+
+.tbl3 .cal_calendar { width: 100%; height: 100%; border-collapse: collapse; background: #e7e7e7;  }
+.tbl3 .cal_calendar td { text-align: center; width: 14%; line-height: 30px; }
+.tbl3 .cal_today { color: white; background: #000; font: italic 14px/20px georgia; }
+
+
+
+/* Table 4*/
+
+.tbl4 { table-layout: fixed; margin: 30px auto; width: 100%; min-width: 500px; max-width: 500px; font: 12px/30px "Trebuchet MS", sans-serif; border-collapse: collapse; background: #e7e7e7; text-align: center; border-radius: 10px; box-shadow: 0 0 0 1px black; overflow: hidden; }
+.tbl4 th, .tbl4 td { border: 1px solid #999;}
+.tbl4 th { font-weight: bold; background: #d0d0d0; line-height: 35px;  }
+
+.tbl4 td { padding: 0 5px; vertical-align: baseline; } 
+.tbl4 tr:nth-child(n+5) { text-align: left; line-height: 21px; }
+.tbl4 tr:last-child td { padding: 10px; }
+.tbl4 tr:last-child td:nth-child(2) { font-style: italic; padding: 9px; }
+
+.tbl4 tr:nth-child(3) td:nth-child(3),
+.tbl4 tr:nth-child(4) td:nth-child(1) { background: #fff; text-align: left; padding: 0 10px; }
+.tbl4 tr:nth-child(4) td:nth-child(2) { background: #333; color: #fff; }
+
+
+/* Table 5*/
+
+.tbl5 { margin: 30px auto; width: 100%; min-width: 700px; max-width: 700px; font: 12px/21px "Trebuchet MS", sans-serif; text-align: center; border-collapse: collapse; }
+.tbl5 th, .tbl5 td { border: 1px solid #999; border-left: none; border-right: none; }
+.tbl5 th { font-weight: bold; }
+.tbl5 th:last-child { border-top: none; border-bottom: none; text-align: left; vertical-align: top; width: 40%; padding: 0 15px; }
+.tbl5 th:first-child, .tbl5 td:first-child { text-align: left; width: 14%; }
+
+
+
+/* Table 6 */
+
+.tbl6 { margin: 30px auto; width: 100%; min-width: 700px; max-width: 700px; font: 12px/30px "Trebuchet MS", sans-serif; text-align: center; border-collapse: collapse; /* border-radius: 10px; box-shadow: 0 0 0 1px black; overflow: hidden; */ }
+.tbl6 th { line-height: 35px; }
+.tbl6 tr:first-child th { color: #fff; background: #ccc; background: -moz-linear-gradient(top, #cccccc 0%, #333333 100%); background: -webkit-linear-gradient(top, #cccccc 0%,#333333 100%); background: linear-gradient(to bottom, #cccccc 0%,#333333 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#333333',GradientType=0 ); }
+.tbl6 tr:first-child th:first-child {border-bottom: none; border-radius: 10px 0 0; display: block; }
+.tbl6 tr:first-child th:last-child { border-bottom: none; border-radius: 0 10px 0 0; display: block; width: 200%; } 
+.tbl6 tr:nth-child(2n) { background: #e7e7e7; }
+
+.tbl6 th, .tbl6 td { border: 1px solid #999; border-left: 1px solid #fff; border-right: 1px solid #fff; } 
+
+.tbl6 td:nth-child(1),
+.tbl6 td:nth-child(3),
+.tbl6 td:nth-child(4),
+.tbl6 td:nth-child(5) { width: 16%; } 
+.tbl6 a { color: #000; }
+
+
+@media (max-width: 768px) {
+  .wrap { overflow-x: auto; padding: 0 10px; }   
+}
